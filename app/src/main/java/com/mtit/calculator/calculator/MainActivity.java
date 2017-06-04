@@ -48,31 +48,7 @@ public class MainActivity extends AppCompatActivity {
         //saliya
     }
 
-    public void Calculate(View v) {
-        Button button = (Button) v;
-        string2 = Screen.getText().toString();
-        valueTwo = Double.parseDouble(string2);
-        switch (sign) {
-            case "+":
-                result = (valueOne + valueTwo + "").toString();
-                break;
-            case "-":
-                result = (valueOne - valueTwo + "").toString();
-                break;
-            case "*":
-                result = (valueOne * valueTwo + "").toString();
-                break;
-            case "/":
-                result = (valueOne / valueTwo + "").toString();
-                break;
-            default:
-                Screen.setText("Syntx Error");
-                break;
-        }
-        Screen.setText(result);
-    }
-
-        public void Clear(View v){
+   public void Clear(View v){
 
 
         Button button =(Button)v;
@@ -84,8 +60,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Calculate(View v){
-        //ravindu
-        
+        Button button = (Button)v;
+        string2=Screen.getText().toString();
+        valueTwo=Double.parseDouble(string2);
+        switch (sign){
+            case "+":
+                result=(valueOne+valueTwo+"").toString();
+                break;
+            case "-":
+                result=(valueOne-valueTwo+"").toString();
+                break;
+            case "*":
+                result=(valueOne*valueTwo+"").toString();
+                break;
+            case "/":
+                result=(valueOne/valueTwo+"").toString();
+                break;
+                default:
+                    Screen.setText("Syntx Error");
+                    break;
+        }
+        Screen.setText(result);
+
+
     }
 
     public void Clear(View v){
