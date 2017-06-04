@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickSign(View v){
+
         //saliya
     }
 
@@ -72,6 +73,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
         public void Clear(View v){
+
+
+        Button button =(Button)v;
+        valueOne=value;
+        sign=button.getText().toString();
+        Screen.setText("");
+        Screen.setText(sign);
+        string1="";
+    }
+
+    public void Calculate(View v){
+        //ravindu
+        
+    }
+
+    public void Clear(View v){
+
         string1="";
         string2="";
         sign="";

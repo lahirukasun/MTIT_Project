@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Calculator-master.iml" filepath="$PROJECT_DIR$/Calculator-master.iml" />
+=======
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/MTIT_project-master.iml" filepath="$PROJECT_DIR$/MTIT_project-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Calculator-master.iml" filepath="$PROJECT_DIR$/Calculator-master.iml" />
+>>>>>>> 9e886db297beda2ff907e9235fa85d522fe7ec1e
+>>>>>>> 2a665889aec50db2f2561bce101ee8805f6c1bb8
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
