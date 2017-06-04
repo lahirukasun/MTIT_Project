@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickSign(View v){
+
         Button button =(Button)v;
         valueOne=value;
         sign=button.getText().toString();
